@@ -1,0 +1,23 @@
+/* animations.css */
+@keyframes fly {
+  100% {
+    transform: rotate(2turn) translate(200px) rotate(-2turn);
+  }
+}
+
+@keyframes flyPlus {
+  100% {
+    transform: rotate(-2turn) translate(200px) rotate(2turn);
+  }
+}
+/* animations.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
